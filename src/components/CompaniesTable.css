@@ -1,0 +1,84 @@
+.companies-table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container {
+    margin-bottom: 20px;
+    width: 900px;
+}
+
+.input-field {
+    margin-right: 10px;
+    width: 15%;
+}
+
+.button {
+    width: 200px;
+    margin-right: 10px;
+}
+
+.remove-button {
+    width: 150px;
+}
+
+.table-container {
+    height: 500px;
+    width:900px;
+    overflow: auto;
+}
+
+.selected-row {
+    background-color: #8ef18e;
+}
+
+.table-header {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 900px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-header .select-column {
+    width: 50px;
+    text-align: center;
+}
+
+.table-header .name-column {
+    width: 400px;
+    text-align: center;
+}
+
+.table-header .address-column {
+    width: 400px;
+    text-align: center;
+}
+
+.select-column {
+    width: 150px;
+}
+
+.name-column {
+    width: 400px;
+}
+
+.address-column {
+    width: 400px;
+}
+
+.small-checkbox {
+    margin: auto;
+    width: 100px;
+    height: 20px;
+}
+
+.small-input {
+    margin: auto;
+    width: 80%;
+    height: 30px;
+    padding: 5px;
+    box-sizing: border-box;
+}
